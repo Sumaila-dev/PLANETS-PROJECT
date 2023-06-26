@@ -1,0 +1,23 @@
+{
+  "name": "planets-project",
+  "version": "1.0.0",
+  "description": "***This project makes use of node modules and the kepler database to develop firm implementation of node modules.***",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumaila-dev/PLANETS-PROJECT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumaila-dev/PLANETS-PROJECT/issues"
+  },
+  "homepage": "https://github.com/Sumaila-dev/PLANETS-PROJECT#readme",
+  "dependencies": {
+    "csv-parse": "^5.4.0"
+  }
+}
