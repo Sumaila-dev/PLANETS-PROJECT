@@ -1,4 +1,4 @@
-const parse = require('csv-parse');
+const { parse } = require('csv-parse');
 const fs = require('fs');
 
 const results = [];
@@ -17,4 +17,4 @@ fs.createReadStream('kepler_data.csv')
     .on('end', () => {
         console.log(results);
         console.log('done');
-    })
+    });
